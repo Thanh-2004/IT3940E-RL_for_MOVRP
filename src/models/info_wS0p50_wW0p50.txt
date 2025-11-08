@@ -1,0 +1,4 @@
+Model: maskppo_wS0p50_wW0p50.zip
+Trained: 2025-11-08 07:38:17
+Completion Rate: 100.0%
+Weighted Objective: 3041893.01
