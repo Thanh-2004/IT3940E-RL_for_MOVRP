@@ -1,0 +1,85 @@
+{
+    "file_instance": {
+        "metrics": {
+            "makespan": 7112.26,
+            "waiting_time": 57846.01,
+            "objective_score": 32479.14,
+            "weights": {
+                "w1": 0.5,
+                "w2": 0.5
+            }
+        },
+        "trucks": [
+            {
+                "id": "Truck_0",
+                "path": [
+                    0,
+                    11,
+                    6,
+                    12,
+                    5,
+                    16,
+                    8,
+                    14,
+                    4,
+                    0
+                ],
+                "finish_time": 6316.28
+            },
+            {
+                "id": "Truck_1",
+                "path": [
+                    0,
+                    7,
+                    1,
+                    19,
+                    18,
+                    20,
+                    13,
+                    2,
+                    17,
+                    0
+                ],
+                "finish_time": 7112.26
+            }
+        ],
+        "drones": [
+            {
+                "id": "Drone_0",
+                "path": [
+                    0,
+                    15,
+                    0,
+                    0,
+                    10,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "finish_time": 1354.13,
+                "energy_left": "100.0%"
+            },
+            {
+                "id": "Drone_1",
+                "path": [
+                    0,
+                    9,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "finish_time": 2397.85,
+                "energy_left": "100.0%"
+            }
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "file_instance": {
+        "metrics": {
+            "makespan": 8369.66,
+            "waiting_time": 49344.62,
+            "objective_score": 28857.14,
+            "weights": {
+                "w1": 0.5,
+                "w2": 0.5
+            }
+        },
+        "trucks": [
+            {
+                "id": "Truck_0",
+                "path": [
+                    0,
+                    20,
+                    12,
+                    2,
+                    1,
+                    7,
+                    10,
+                    5,
+                    18,
+                    13,
+                    0
+                ],
+                "finish_time": 8369.66
+            },
+            {
+                "id": "Truck_1",
+                "path": [
+                    0,
+                    17,
+                    3,
+                    14,
+                    8,
+                    6,
+                    4,
+                    0
+                ],
+                "finish_time": 3093.59
+            }
+        ],
+        "drones": [
+            {
+                "id": "Drone_0",
+                "path": [
+                    0,
+                    19,
+                    0,
+                    15,
+                    11,
+                    9,
+                    0
+                ],
+                "finish_time": 2974.7,
+                "energy_left": "100.0%"
+            },
+            {
+                "id": "Drone_1",
+                "path": [
+                    0,
+                    16,
+                    0
+                ],
+                "finish_time": 1019.48,
+                "energy_left": "100.0%"
+            }
+        ]
+    }
+}
