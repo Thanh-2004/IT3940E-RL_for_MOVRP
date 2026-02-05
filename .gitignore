@@ -10,6 +10,8 @@ wa_ppo/
 
 data.zip
 
+ptr-net_v2/evaluation_results/
+
 # C extensions
 *.so
 
