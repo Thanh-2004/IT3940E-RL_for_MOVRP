@@ -5,6 +5,11 @@ __pycache__/
 
 data/
 
+ptr-net/
+wa_ppo/
+
+data.zip
+
 # C extensions
 *.so
 

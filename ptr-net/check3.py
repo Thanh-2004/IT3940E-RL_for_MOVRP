@@ -306,8 +306,8 @@ def select_action(step, model, state, last_hh=None, deterministic=False):
     logprob_veh = torch.log(veh_probs.gather(1, veh_idx.unsqueeze(1)) + 1e-10).squeeze(1)
     logprob_node = torch.log(node_probs.gather(1, node_idx.unsqueeze(1)) + 1e-10).squeeze(1)
 
-    if step == 40:
-        return
+    # if step == 40:
+    #     return
     
     return veh_idx, node_idx, logprob_veh, logprob_node, last_hh
 
@@ -454,8 +454,8 @@ def run_check_with_file(file_path, env, model, critic, state, pretrained):
 
 if __name__ == "__main__":
     # Thay tên file txt của bạn vào đây
-    input_file = "../data/random_data/20.10.1.txt" 
-    checkpoint_path = "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/ptr-net/runs/01makespan/checkpoints/checkpoint_epoch_49.pth"  # Đường dẫn checkpoint nếu có
+    input_file = "../data/random_data/200.40.1.txt" 
+    checkpoint_path = "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/ptr-net/runs/05makespan/checkpoints/checkpoint_epoch_49.pth"  # Đường dẫn checkpoint nếu có
     LOAD_CHECKPOINTs = [True]
 
     for LOAD_CHECKPOINT in LOAD_CHECKPOINTs:

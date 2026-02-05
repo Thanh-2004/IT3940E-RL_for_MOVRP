@@ -1,0 +1,56 @@
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+
+[CURRICULUM] Starting Level 1: 20.10.1.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+
+[CURRICULUM] Starting Level 1: 20.10.1.txt
+
+[Iter 00050] loss=0.2472 pg=0.2054 v=0.3180 ent=2.7129 adv=-0.525 kl=1.8055 clip=1.00 ex_var=0.023
+[INFO]: Running Evaluate
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+
+[CURRICULUM] Starting Level 1: 20.10.1.txt
+
+[Iter 00050] loss=0.2472 pg=0.2054 v=0.3180 ent=2.7129 adv=-0.525 kl=1.8055 clip=1.00 ex_var=0.023
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.2/checkpoints/solutions_iter_000050.txt
+[Eval @ 50] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=9.308
+Now:    F1(best F1)=1.117, F2(best F1)=5.204
+	F2(best F2)=5.204, F1(best F2)=1.117
+	Best F1+F2=6.321
+	Best Mean: 9.308
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.2
+Log File: results/training_curriculum_v2.2/train_log.txt
+
+[CURRICULUM] Starting Level 1: 20.10.1.txt
+
+[Iter 00050] loss=0.1925 pg=0.2200 v=0.0849 ent=2.6797 adv=-0.259 kl=1.8249 clip=1.00 ex_var=0.051
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.2/checkpoints/solutions_iter_000050.txt
+[Eval @ 50] F1_best=2.075  F2_best=12.851  (F1+F2)_best=14.926  Mean_best=14.926
+Now:    F1(best F1)=2.075, F2(best F1)=12.851
+	F2(best F2)=12.851, F1(best F2)=2.075
+	Best F1+F2=14.926
+	Best Mean: 14.926

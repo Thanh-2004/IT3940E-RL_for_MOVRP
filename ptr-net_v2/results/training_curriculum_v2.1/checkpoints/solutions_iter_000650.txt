@@ -1,0 +1,86 @@
+--- Solutions at Iteration 650 ---
+
+=== BEST F1 SCENARIO ===
+Weights: w1=1.00, w2=0.00
+Result: F1=3.45, F2=28.30
+Moves:
+  1. Drone 0 -> Node 18
+  2. Drone 0 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 0
+  5. Drone 1 -> Node 1
+  6. Drone 1 -> Node 0
+  7. Truck 0 -> Node 10
+  8. Truck 0 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 2
+  12. Truck 1 -> Node 17
+  13. Truck 1 -> Node 20
+  14. Truck 0 -> Node 4
+  15. Truck 0 -> Node 19
+  16. Truck 1 -> Node 16
+  17. Truck 1 -> Node 6
+  18. Truck 0 -> Node 15
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 12
+  21. Truck 0 -> Node 9
+  22. Truck 1 -> Node 8
+  23. Truck 0 -> Node 3
+
+=== BEST F2 SCENARIO ===
+Weights: w1=1.00, w2=0.00
+Result: F1=3.45, F2=28.30
+Moves:
+  1. Drone 0 -> Node 18
+  2. Drone 0 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 0
+  5. Drone 1 -> Node 1
+  6. Drone 1 -> Node 0
+  7. Truck 0 -> Node 10
+  8. Truck 0 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 2
+  12. Truck 1 -> Node 17
+  13. Truck 1 -> Node 20
+  14. Truck 0 -> Node 4
+  15. Truck 0 -> Node 19
+  16. Truck 1 -> Node 16
+  17. Truck 1 -> Node 6
+  18. Truck 0 -> Node 15
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 12
+  21. Truck 0 -> Node 9
+  22. Truck 1 -> Node 8
+  23. Truck 0 -> Node 3
+
+=== BEST SUM SCENARIO ===
+Weights: w1=1.00, w2=0.00
+Result: F1=3.45, F2=28.30
+Moves:
+  1. Drone 0 -> Node 18
+  2. Drone 0 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 0
+  5. Drone 1 -> Node 1
+  6. Drone 1 -> Node 0
+  7. Truck 0 -> Node 10
+  8. Truck 0 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 2
+  12. Truck 1 -> Node 17
+  13. Truck 1 -> Node 20
+  14. Truck 0 -> Node 4
+  15. Truck 0 -> Node 19
+  16. Truck 1 -> Node 16
+  17. Truck 1 -> Node 6
+  18. Truck 0 -> Node 15
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 12
+  21. Truck 0 -> Node 9
+  22. Truck 1 -> Node 8
+  23. Truck 0 -> Node 3
+----------------------------------------

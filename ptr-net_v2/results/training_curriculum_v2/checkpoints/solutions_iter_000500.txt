@@ -1,0 +1,83 @@
+--- Solutions at Iteration 500 ---
+
+=== BEST F1 SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=4.89, F2=32.57
+Moves:
+  1. Drone 1 -> Node 1
+  2. Drone 1 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 18
+  5. Drone 1 -> Node 0
+  6. Truck 0 -> Node 10
+  7. Truck 1 -> Node 2
+  8. Truck 1 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 17
+  12. Truck 1 -> Node 20
+  13. Truck 1 -> Node 16
+  14. Truck 1 -> Node 4
+  15. Truck 1 -> Node 19
+  16. Truck 1 -> Node 6
+  17. Truck 1 -> Node 15
+  18. Truck 1 -> Node 12
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 9
+  21. Truck 1 -> Node 8
+  22. Truck 1 -> Node 3
+
+=== BEST F2 SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=4.89, F2=32.57
+Moves:
+  1. Drone 1 -> Node 1
+  2. Drone 1 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 18
+  5. Drone 1 -> Node 0
+  6. Truck 0 -> Node 10
+  7. Truck 1 -> Node 2
+  8. Truck 1 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 17
+  12. Truck 1 -> Node 20
+  13. Truck 1 -> Node 16
+  14. Truck 1 -> Node 4
+  15. Truck 1 -> Node 19
+  16. Truck 1 -> Node 6
+  17. Truck 1 -> Node 15
+  18. Truck 1 -> Node 12
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 9
+  21. Truck 1 -> Node 8
+  22. Truck 1 -> Node 3
+
+=== BEST SUM SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=4.89, F2=32.57
+Moves:
+  1. Drone 1 -> Node 1
+  2. Drone 1 -> Node 0
+  3. Drone 1 -> Node 7
+  4. Drone 1 -> Node 18
+  5. Drone 1 -> Node 0
+  6. Truck 0 -> Node 10
+  7. Truck 1 -> Node 2
+  8. Truck 1 -> Node 5
+  9. Truck 0 -> Node 11
+  10. Truck 0 -> Node 13
+  11. Truck 1 -> Node 17
+  12. Truck 1 -> Node 20
+  13. Truck 1 -> Node 16
+  14. Truck 1 -> Node 4
+  15. Truck 1 -> Node 19
+  16. Truck 1 -> Node 6
+  17. Truck 1 -> Node 15
+  18. Truck 1 -> Node 12
+  19. Truck 1 -> Node 14
+  20. Truck 1 -> Node 9
+  21. Truck 1 -> Node 8
+  22. Truck 1 -> Node 3
+----------------------------------------

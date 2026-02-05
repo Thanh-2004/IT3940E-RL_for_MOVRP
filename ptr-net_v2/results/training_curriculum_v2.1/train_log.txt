@@ -1,0 +1,573 @@
+--- Training Started ---
+Run Directory: results/training_curriculum_v2.1
+Log File: results/training_curriculum_v2.1/train_log.txt
+
+[CURRICULUM] Starting Level 1: 20.10.1.txt
+
+[Iter 00050] loss=0.2472 pg=0.2054 v=0.3180 ent=2.7129 adv=-0.525 kl=1.8055 clip=1.00 ex_var=0.023
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000050.txt
+[Eval @ 50] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=9.308
+Now:    F1(best F1)=1.117, F2(best F1)=5.204
+	F2(best F2)=5.204, F1(best F2)=1.117
+	Best F1+F2=6.321
+	Best Mean: 9.308
+
+[Iter 00100] loss=0.3170 pg=0.2216 v=0.4532 ent=2.0810 adv=-0.309 kl=1.2971 clip=1.00 ex_var=0.014
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000100.txt
+[Eval @ 100] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=9.159
+Now:    F1(best F1)=1.117, F2(best F1)=5.281
+	F2(best F2)=5.281, F1(best F2)=1.117
+	Best F1+F2=6.399
+	Best Mean: 9.159
+
+[Iter 00150] loss=0.1667 pg=0.1644 v=0.1331 ent=1.9562 adv=0.178 kl=1.0689 clip=1.00 ex_var=0.094
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000150.txt
+[Eval @ 150] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=9.159
+Now:    F1(best F1)=1.687, F2(best F1)=7.732
+	F2(best F2)=7.732, F1(best F2)=1.732
+	Best F1+F2=9.419
+	Best Mean: 9.472
+
+[Iter 00200] loss=0.1224 pg=0.1561 v=0.0108 ent=1.9446 adv=0.018 kl=1.1382 clip=1.00 ex_var=0.309
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000200.txt
+[Eval @ 200] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=8.818
+Now:    F1(best F1)=1.176, F2(best F1)=6.434
+	F2(best F2)=6.434, F1(best F2)=1.176
+	Best F1+F2=7.610
+	Best Mean: 8.818
+
+[Iter 00250] loss=0.1715 pg=0.1570 v=0.1667 ent=1.8944 adv=0.135 kl=1.1379 clip=1.00 ex_var=0.478
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000250.txt
+[Eval @ 250] F1_best=1.117  F2_best=5.204  (F1+F2)_best=6.321  Mean_best=7.589
+Now:    F1(best F1)=1.384, F2(best F1)=5.977
+	F2(best F2)=5.977, F1(best F2)=1.384
+	Best F1+F2=7.361
+	Best Mean: 7.589
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_20.10.1.pt
+
+[CURRICULUM] Starting Level 2: 20.10.3.txt
+
+[Iter 00300] loss=0.0824 pg=0.1031 v=0.0442 ent=1.8333 adv=-0.159 kl=1.5092 clip=0.81 ex_var=0.812
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000300.txt
+[Eval @ 300] F1_best=1.286  F2_best=4.811  (F1+F2)_best=6.097  Mean_best=6.457
+Now:    F1(best F1)=1.286, F2(best F1)=4.811
+	F2(best F2)=4.811, F1(best F2)=1.286
+	Best F1+F2=6.097
+	Best Mean: 6.457
+
+[Iter 00350] loss=0.0996 pg=0.1302 v=0.0026 ent=1.7211 adv=-0.017 kl=1.2631 clip=0.71 ex_var=0.794
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000350.txt
+[Eval @ 350] F1_best=1.286  F2_best=4.811  (F1+F2)_best=6.097  Mean_best=6.220
+Now:    F1(best F1)=1.313, F2(best F1)=4.907
+	F2(best F2)=4.907, F1(best F2)=1.313
+	Best F1+F2=6.220
+	Best Mean: 6.220
+
+[Iter 00400] loss=-0.0089 pg=0.0034 v=0.0363 ent=1.2880 adv=0.052 kl=0.8507 clip=0.63 ex_var=0.882
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000400.txt
+[Eval @ 400] F1_best=1.274  F2_best=4.716  (F1+F2)_best=6.002  Mean_best=6.036
+Now:    F1(best F1)=1.274, F2(best F1)=4.756
+	F2(best F2)=4.716, F1(best F2)=1.286
+	Best F1+F2=6.002
+	Best Mean: 6.036
+
+[Iter 00450] loss=0.1497 pg=0.1654 v=0.0229 ent=1.2689 adv=0.089 kl=0.6241 clip=0.89 ex_var=0.820
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000450.txt
+[Eval @ 450] F1_best=1.274  F2_best=4.716  (F1+F2)_best=6.002  Mean_best=6.036
+Now:    F1(best F1)=1.286, F2(best F1)=4.827
+	F2(best F2)=4.827, F1(best F2)=1.286
+	Best F1+F2=6.114
+	Best Mean: 6.114
+
+[Iter 00500] loss=0.1358 pg=0.1536 v=0.0016 ent=1.0465 adv=0.041 kl=0.6967 clip=0.86 ex_var=0.858
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000500.txt
+[Eval @ 500] F1_best=1.274  F2_best=4.716  (F1+F2)_best=6.002  Mean_best=6.036
+Now:    F1(best F1)=1.274, F2(best F1)=4.868
+	F2(best F2)=4.827, F1(best F2)=1.286
+	Best F1+F2=6.114
+	Best Mean: 6.115
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_20.10.3.pt
+
+[CURRICULUM] Starting Level 3: 20.20.3.txt
+
+[Iter 00550] loss=0.2460 pg=0.1787 v=0.3076 ent=1.4489 adv=-0.203 kl=0.5903 clip=1.00 ex_var=0.874
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000550.txt
+[Eval @ 550] F1_best=3.375  F2_best=27.913  (F1+F2)_best=31.399  Mean_best=32.137
+Now:    F1(best F1)=3.375, F2(best F1)=29.609
+	F2(best F2)=27.913, F1(best F2)=3.487
+	Best F1+F2=31.399
+	Best Mean: 32.137
+
+[Iter 00600] loss=0.1435 pg=0.1481 v=0.0486 ent=1.1281 adv=0.146 kl=0.6241 clip=0.74 ex_var=0.964
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000600.txt
+[Eval @ 600] F1_best=3.375  F2_best=27.913  (F1+F2)_best=31.399  Mean_best=32.137
+Now:    F1(best F1)=3.456, F2(best F1)=28.392
+	F2(best F2)=28.392, F1(best F2)=3.456
+	Best F1+F2=31.849
+	Best Mean: 32.200
+
+[Iter 00650] loss=0.0867 pg=0.1014 v=0.0268 ent=1.3580 adv=-0.098 kl=0.6705 clip=0.77 ex_var=0.923
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000650.txt
+[Eval @ 650] F1_best=3.375  F2_best=27.913  (F1+F2)_best=31.399  Mean_best=32.137
+Now:    F1(best F1)=3.449, F2(best F1)=28.299
+	F2(best F2)=28.299, F1(best F2)=3.449
+	Best F1+F2=31.748
+	Best Mean: 35.813
+
+[Iter 00700] loss=0.1138 pg=0.1142 v=0.0542 ent=1.0106 adv=0.087 kl=0.5230 clip=0.68 ex_var=0.969
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000700.txt
+[Eval @ 700] F1_best=3.375  F2_best=27.207  (F1+F2)_best=30.645  Mean_best=32.137
+Now:    F1(best F1)=3.438, F2(best F1)=27.207
+	F2(best F2)=27.207, F1(best F2)=3.438
+	Best F1+F2=30.645
+	Best Mean: 32.706
+
+[Iter 00750] loss=0.0756 pg=0.0738 v=0.0613 ent=1.0231 adv=0.160 kl=0.5382 clip=0.68 ex_var=0.956
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000750.txt
+[Eval @ 750] F1_best=3.375  F2_best=27.207  (F1+F2)_best=30.645  Mean_best=32.137
+Now:    F1(best F1)=3.471, F2(best F1)=28.339
+	F2(best F2)=28.339, F1(best F2)=3.471
+	Best F1+F2=31.810
+	Best Mean: 33.858
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_20.20.3.pt
+
+[CURRICULUM] Starting Level 4: 20.20.2.txt
+
+[Iter 00800] loss=0.0109 pg=0.0186 v=0.0203 ent=0.8590 adv=-0.082 kl=0.2971 clip=0.67 ex_var=0.832
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000800.txt
+[Eval @ 800] F1_best=3.277  F2_best=24.965  (F1+F2)_best=28.243  Mean_best=30.709
+Now:    F1(best F1)=3.277, F2(best F1)=24.965
+	F2(best F2)=24.965, F1(best F2)=3.277
+	Best F1+F2=28.243
+	Best Mean: 30.709
+
+[Iter 00850] loss=0.0778 pg=0.0666 v=0.0758 ent=0.7307 adv=-0.186 kl=0.2937 clip=0.58 ex_var=0.951
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000850.txt
+[Eval @ 850] F1_best=3.277  F2_best=22.740  (F1+F2)_best=26.027  Mean_best=28.591
+Now:    F1(best F1)=3.277, F2(best F1)=25.511
+	F2(best F2)=22.740, F1(best F2)=3.287
+	Best F1+F2=26.027
+	Best Mean: 28.591
+
+[Iter 00900] loss=-0.0074 pg=-0.0170 v=0.0663 ent=0.6603 adv=-0.086 kl=0.2027 clip=0.46 ex_var=0.932
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000900.txt
+[Eval @ 900] F1_best=3.277  F2_best=22.740  (F1+F2)_best=26.027  Mean_best=28.591
+Now:    F1(best F1)=3.277, F2(best F1)=25.511
+	F2(best F2)=25.511, F1(best F2)=3.277
+	Best F1+F2=28.789
+	Best Mean: 30.182
+
+[Iter 00950] loss=-0.0031 pg=0.0026 v=0.0230 ent=0.8239 adv=-0.116 kl=0.2602 clip=0.50 ex_var=0.896
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_000950.txt
+[Eval @ 950] F1_best=3.277  F2_best=22.740  (F1+F2)_best=26.027  Mean_best=28.591
+Now:    F1(best F1)=3.277, F2(best F1)=25.511
+	F2(best F2)=25.511, F1(best F2)=3.277
+	Best F1+F2=28.789
+	Best Mean: 29.890
+
+[Iter 01000] loss=0.0541 pg=0.0478 v=0.0514 ent=0.6072 adv=0.103 kl=0.3704 clip=0.46 ex_var=0.966
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001000.txt
+[Eval @ 1000] F1_best=3.228  F2_best=21.169  (F1+F2)_best=24.424  Mean_best=28.075
+Now:    F1(best F1)=3.228, F2(best F1)=21.206
+	F2(best F2)=21.169, F1(best F2)=3.255
+	Best F1+F2=24.424
+	Best Mean: 28.075
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_20.20.2.pt
+
+[CURRICULUM] Starting Level 5: 50.10.1.txt
+
+[Iter 01050] loss=0.1051 pg=0.1199 v=0.0122 ent=1.2567 adv=-0.040 kl=0.7145 clip=0.76 ex_var=-1.109
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001050.txt
+[Eval @ 1050] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=1.843, F2(best F1)=21.527
+	F2(best F2)=21.527, F1(best F2)=1.843
+	Best F1+F2=23.370
+	Best Mean: 27.319
+
+[Iter 01100] loss=0.0691 pg=0.0823 v=0.0034 ent=0.9779 adv=0.003 kl=0.5313 clip=0.67 ex_var=0.785
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001100.txt
+[Eval @ 1100] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=2.077, F2(best F1)=27.626
+	F2(best F2)=23.886, F1(best F2)=4.022
+	Best F1+F2=27.454
+	Best Mean: 30.644
+
+[Iter 01150] loss=0.0608 pg=0.0441 v=0.0967 ent=0.8625 adv=-0.023 kl=0.3709 clip=0.62 ex_var=0.891
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001150.txt
+[Eval @ 1150] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=2.083, F2(best F1)=26.501
+	F2(best F2)=26.272, F1(best F2)=3.514
+	Best F1+F2=28.584
+	Best Mean: 31.318
+
+[Iter 01200] loss=0.0353 pg=0.0452 v=0.0027 ent=0.7606 adv=-0.018 kl=0.3623 clip=0.52 ex_var=0.810
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001200.txt
+[Eval @ 1200] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=2.055, F2(best F1)=27.830
+	F2(best F2)=24.533, F1(best F2)=3.531
+	Best F1+F2=28.064
+	Best Mean: 30.105
+
+[Iter 01250] loss=0.0178 pg=0.0272 v=0.0048 ent=0.7901 adv=-0.022 kl=0.4227 clip=0.53 ex_var=0.550
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001250.txt
+[Eval @ 1250] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=2.004, F2(best F1)=24.701
+	F2(best F2)=24.701, F1(best F2)=2.004
+	Best F1+F2=26.705
+	Best Mean: 29.550
+
+[Iter 01300] loss=0.0196 pg=0.0243 v=0.0208 ent=0.8083 adv=-0.009 kl=0.4518 clip=0.60 ex_var=0.943
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001300.txt
+[Eval @ 1300] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=1.928, F2(best F1)=26.396
+	F2(best F2)=24.701, F1(best F2)=2.004
+	Best F1+F2=26.705
+	Best Mean: 29.990
+
+[Iter 01350] loss=0.0394 pg=0.0483 v=0.0016 ent=0.7104 adv=-0.011 kl=0.3039 clip=0.48 ex_var=0.867
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001350.txt
+[Eval @ 1350] F1_best=1.843  F2_best=21.527  (F1+F2)_best=23.370  Mean_best=27.319
+Now:    F1(best F1)=2.004, F2(best F1)=24.513
+	F2(best F2)=23.577, F1(best F2)=3.531
+	Best F1+F2=26.517
+	Best Mean: 27.674
+
+[Iter 01400] loss=0.0374 pg=0.0441 v=0.0024 ent=0.5667 adv=0.027 kl=0.2032 clip=0.42 ex_var=0.897
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001400.txt
+[Eval @ 1400] F1_best=1.843  F2_best=21.153  (F1+F2)_best=23.051  Mean_best=26.502
+Now:    F1(best F1)=1.898, F2(best F1)=21.153
+	F2(best F2)=21.153, F1(best F2)=1.898
+	Best F1+F2=23.051
+	Best Mean: 26.502
+
+[Iter 01450] loss=0.0456 pg=0.0403 v=0.0494 ent=0.7476 adv=-0.143 kl=0.3597 clip=0.48 ex_var=0.915
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001450.txt
+[Eval @ 1450] F1_best=1.781  F2_best=21.153  (F1+F2)_best=23.051  Mean_best=26.000
+Now:    F1(best F1)=1.781, F2(best F1)=22.816
+	F2(best F2)=21.547, F1(best F2)=3.256
+	Best F1+F2=24.471
+	Best Mean: 26.000
+
+[Iter 01500] loss=0.0529 pg=0.0585 v=0.0074 ent=0.6299 adv=0.036 kl=0.4488 clip=0.55 ex_var=0.962
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001500.txt
+[Eval @ 1500] F1_best=1.781  F2_best=21.148  (F1+F2)_best=23.051  Mean_best=25.696
+Now:    F1(best F1)=1.898, F2(best F1)=21.244
+	F2(best F2)=21.148, F1(best F2)=3.256
+	Best F1+F2=23.142
+	Best Mean: 25.696
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_50.10.1.pt
+
+[CURRICULUM] Starting Level 6: 50.10.3.txt
+
+[Iter 01550] loss=-0.0019 pg=0.0102 v=0.0038 ent=1.0820 adv=-0.020 kl=0.5680 clip=0.66 ex_var=0.892
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001550.txt
+[Eval @ 1550] F1_best=2.387  F2_best=38.124  (F1+F2)_best=40.511  Mean_best=43.403
+Now:    F1(best F1)=2.387, F2(best F1)=38.124
+	F2(best F2)=38.124, F1(best F2)=2.387
+	Best F1+F2=40.511
+	Best Mean: 43.403
+
+[Iter 01600] loss=0.0491 pg=0.0337 v=0.0817 ent=0.7658 adv=-0.149 kl=0.4556 clip=0.71 ex_var=0.854
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001600.txt
+[Eval @ 1600] F1_best=2.357  F2_best=37.443  (F1+F2)_best=39.993  Mean_best=42.444
+Now:    F1(best F1)=2.357, F2(best F1)=40.740
+	F2(best F2)=37.443, F1(best F2)=2.585
+	Best F1+F2=39.993
+	Best Mean: 42.444
+
+[Iter 01650] loss=-0.0041 pg=-0.0062 v=0.0371 ent=0.7667 adv=0.019 kl=0.5150 clip=0.48 ex_var=0.910
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001650.txt
+[Eval @ 1650] F1_best=2.267  F2_best=35.145  (F1+F2)_best=37.638  Mean_best=42.444
+Now:    F1(best F1)=2.267, F2(best F1)=38.138
+	F2(best F2)=35.145, F1(best F2)=2.493
+	Best F1+F2=37.638
+	Best Mean: 44.439
+
+[Iter 01700] loss=0.0813 pg=0.0898 v=0.0019 ent=0.7852 adv=-0.004 kl=0.5564 clip=0.44 ex_var=0.938
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001700.txt
+[Eval @ 1700] F1_best=2.267  F2_best=34.897  (F1+F2)_best=37.638  Mean_best=39.954
+Now:    F1(best F1)=2.392, F2(best F1)=38.085
+	F2(best F2)=34.897, F1(best F2)=3.131
+	Best F1+F2=37.815
+	Best Mean: 39.954
+
+[Iter 01750] loss=0.0218 pg=0.0153 v=0.0481 ent=0.7042 adv=-0.074 kl=0.3101 clip=0.57 ex_var=0.888
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001750.txt
+[Eval @ 1750] F1_best=2.072  F2_best=32.606  (F1+F2)_best=34.678  Mean_best=39.954
+Now:    F1(best F1)=2.072, F2(best F1)=32.606
+	F2(best F2)=32.606, F1(best F2)=2.072
+	Best F1+F2=34.678
+	Best Mean: 41.114
+
+[Iter 01800] loss=0.0097 pg=0.0158 v=0.0060 ent=0.7191 adv=0.028 kl=0.3495 clip=0.60 ex_var=0.956
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001800.txt
+[Eval @ 1800] F1_best=2.072  F2_best=29.891  (F1+F2)_best=32.969  Mean_best=36.827
+Now:    F1(best F1)=2.132, F2(best F1)=31.888
+	F2(best F2)=29.891, F1(best F2)=3.078
+	Best F1+F2=32.969
+	Best Mean: 36.827
+
+[Iter 01850] loss=-0.0045 pg=0.0020 v=0.0021 ent=0.6621 adv=-0.020 kl=0.2892 clip=0.39 ex_var=0.922
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001850.txt
+[Eval @ 1850] F1_best=2.072  F2_best=29.891  (F1+F2)_best=32.969  Mean_best=36.827
+Now:    F1(best F1)=2.072, F2(best F1)=32.902
+	F2(best F2)=31.773, F1(best F2)=2.296
+	Best F1+F2=34.069
+	Best Mean: 39.022
+
+[Iter 01900] loss=-0.0112 pg=-0.0132 v=0.0299 ent=0.6671 adv=-0.027 kl=0.2910 clip=0.48 ex_var=0.920
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001900.txt
+[Eval @ 1900] F1_best=2.072  F2_best=29.891  (F1+F2)_best=32.969  Mean_best=36.827
+Now:    F1(best F1)=2.128, F2(best F1)=36.155
+	F2(best F2)=32.861, F1(best F2)=3.131
+	Best F1+F2=35.992
+	Best Mean: 39.214
+
+[Iter 01950] loss=0.0329 pg=0.0371 v=0.0044 ent=0.5362 adv=0.010 kl=0.2734 clip=0.54 ex_var=0.963
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_001950.txt
+[Eval @ 1950] F1_best=2.072  F2_best=29.891  (F1+F2)_best=32.648  Mean_best=36.827
+Now:    F1(best F1)=2.128, F2(best F1)=36.791
+	F2(best F2)=30.290, F1(best F2)=2.358
+	Best F1+F2=32.648
+	Best Mean: 37.461
+
+[Iter 02000] loss=0.0292 pg=0.0340 v=0.0026 ent=0.5551 adv=0.024 kl=0.2144 clip=0.34 ex_var=0.944
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002000.txt
+[Eval @ 2000] F1_best=2.072  F2_best=29.891  (F1+F2)_best=32.648  Mean_best=36.827
+Now:    F1(best F1)=2.085, F2(best F1)=34.364
+	F2(best F2)=30.991, F1(best F2)=3.131
+	Best F1+F2=34.122
+	Best Mean: 38.990
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_50.10.3.pt
+
+[CURRICULUM] Starting Level 7: 50.10.4.txt
+
+[Iter 02050] loss=0.0143 pg=0.0130 v=0.0242 ent=0.6139 adv=-0.035 kl=0.2298 clip=0.58 ex_var=0.925
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002050.txt
+[Eval @ 2050] F1_best=2.083  F2_best=26.318  (F1+F2)_best=28.402  Mean_best=32.540
+Now:    F1(best F1)=2.083, F2(best F1)=26.318
+	F2(best F2)=26.318, F1(best F2)=2.083
+	Best F1+F2=28.402
+	Best Mean: 32.540
+
+[Iter 02100] loss=0.0446 pg=0.0459 v=0.0154 ent=0.6163 adv=-0.055 kl=0.3086 clip=0.58 ex_var=0.923
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002100.txt
+[Eval @ 2100] F1_best=2.058  F2_best=25.285  (F1+F2)_best=27.390  Mean_best=31.143
+Now:    F1(best F1)=2.058, F2(best F1)=25.882
+	F2(best F2)=25.285, F1(best F2)=2.105
+	Best F1+F2=27.390
+	Best Mean: 31.143
+
+[Iter 02150] loss=-0.0206 pg=-0.0167 v=0.0025 ent=0.5053 adv=-0.026 kl=0.2583 clip=0.35 ex_var=0.833
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002150.txt
+[Eval @ 2150] F1_best=2.053  F2_best=23.698  (F1+F2)_best=25.792  Mean_best=31.143
+Now:    F1(best F1)=2.053, F2(best F1)=24.150
+	F2(best F2)=23.698, F1(best F2)=2.094
+	Best F1+F2=25.792
+	Best Mean: 31.258
+
+[Iter 02200] loss=-0.0023 pg=-0.0012 v=0.0146 ent=0.6059 adv=-0.027 kl=0.1707 clip=0.61 ex_var=0.966
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002200.txt
+[Eval @ 2200] F1_best=2.007  F2_best=23.490  (F1+F2)_best=25.792  Mean_best=30.458
+Now:    F1(best F1)=2.007, F2(best F1)=24.925
+	F2(best F2)=23.490, F1(best F2)=3.226
+	Best F1+F2=26.549
+	Best Mean: 30.458
+
+[Iter 02250] loss=0.0511 pg=0.0549 v=0.0010 ent=0.4625 adv=0.009 kl=0.3792 clip=0.33 ex_var=0.942
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002250.txt
+[Eval @ 2250] F1_best=1.889  F2_best=23.490  (F1+F2)_best=25.792  Mean_best=30.458
+Now:    F1(best F1)=1.889, F2(best F1)=26.710
+	F2(best F2)=23.983, F1(best F2)=2.069
+	Best F1+F2=26.052
+	Best Mean: 31.397
+
+[Iter 02300] loss=-0.0327 pg=-0.0293 v=0.0020 ent=0.4645 adv=-0.015 kl=0.1423 clip=0.30 ex_var=0.894
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002300.txt
+[Eval @ 2300] F1_best=1.889  F2_best=23.490  (F1+F2)_best=25.792  Mean_best=30.188
+Now:    F1(best F1)=2.067, F2(best F1)=24.484
+	F2(best F2)=24.484, F1(best F2)=2.067
+	Best F1+F2=26.551
+	Best Mean: 30.188
+
+[Iter 02350] loss=0.0884 pg=0.0869 v=0.0206 ent=0.5760 adv=-0.003 kl=0.2508 clip=0.65 ex_var=0.952
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002350.txt
+[Eval @ 2350] F1_best=1.889  F2_best=23.490  (F1+F2)_best=25.792  Mean_best=30.188
+Now:    F1(best F1)=2.067, F2(best F1)=23.987
+	F2(best F2)=23.987, F1(best F2)=2.067
+	Best F1+F2=26.054
+	Best Mean: 31.925
+
+[Iter 02400] loss=0.0938 pg=0.0964 v=0.0056 ent=0.5377 adv=0.020 kl=0.3443 clip=0.58 ex_var=0.950
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002400.txt
+[Eval @ 2400] F1_best=1.618  F2_best=22.568  (F1+F2)_best=24.185  Mean_best=28.869
+Now:    F1(best F1)=1.618, F2(best F1)=22.568
+	F2(best F2)=22.568, F1(best F2)=1.618
+	Best F1+F2=24.185
+	Best Mean: 28.869
+
+[Iter 02450] loss=0.0192 pg=0.0225 v=0.0009 ent=0.4608 adv=-0.006 kl=0.2773 clip=0.32 ex_var=0.957
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002450.txt
+[Eval @ 2450] F1_best=1.618  F2_best=21.701  (F1+F2)_best=23.587  Mean_best=28.517
+Now:    F1(best F1)=1.618, F2(best F1)=22.335
+	F2(best F2)=21.701, F1(best F2)=1.887
+	Best F1+F2=23.587
+	Best Mean: 28.517
+
+[Iter 02500] loss=0.0773 pg=0.0699 v=0.0374 ent=0.5133 adv=-0.035 kl=0.3072 clip=0.52 ex_var=0.834
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002500.txt
+[Eval @ 2500] F1_best=1.618  F2_best=21.621  (F1+F2)_best=23.587  Mean_best=27.168
+Now:    F1(best F1)=1.618, F2(best F1)=22.568
+	F2(best F2)=21.621, F1(best F2)=2.067
+	Best F1+F2=23.587
+	Best Mean: 27.168
+
+[CURRICULUM] Milestone saved: results/training_curriculum_v2.1/checkpoints/milestone_50.10.4.pt
+
+[CURRICULUM] Starting Level 8: 50.10.2.txt
+
+[Iter 02550] loss=0.1332 pg=0.1337 v=0.0137 ent=0.6400 adv=0.109 kl=0.2295 clip=0.55 ex_var=0.953
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002550.txt
+[Eval @ 2550] F1_best=2.268  F2_best=41.303  (F1+F2)_best=43.572  Mean_best=46.685
+Now:    F1(best F1)=2.268, F2(best F1)=41.303
+	F2(best F2)=41.303, F1(best F2)=2.268
+	Best F1+F2=43.572
+	Best Mean: 46.685
+
+[Iter 02600] loss=0.0945 pg=0.0976 v=0.0026 ent=0.5490 adv=-0.006 kl=0.2896 clip=0.34 ex_var=0.947
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002600.txt
+[Eval @ 2600] F1_best=2.166  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.924
+Now:    F1(best F1)=2.166, F2(best F1)=40.213
+	F2(best F2)=39.215, F1(best F2)=2.302
+	Best F1+F2=41.517
+	Best Mean: 45.924
+
+[Iter 02650] loss=0.0487 pg=0.0477 v=0.0138 ent=0.4653 adv=0.021 kl=0.2540 clip=0.47 ex_var=0.968
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002650.txt
+[Eval @ 2650] F1_best=2.166  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.924
+Now:    F1(best F1)=2.342, F2(best F1)=45.096
+	F2(best F2)=41.909, F1(best F2)=2.397
+	Best F1+F2=44.307
+	Best Mean: 47.238
+
+[Iter 02700] loss=0.0292 pg=0.0281 v=0.0127 ent=0.4275 adv=-0.006 kl=0.2632 clip=0.35 ex_var=0.970
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002700.txt
+[Eval @ 2700] F1_best=2.166  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.286
+Now:    F1(best F1)=2.224, F2(best F1)=41.394
+	F2(best F2)=41.394, F1(best F2)=2.224
+	Best F1+F2=43.618
+	Best Mean: 45.286
+
+[Iter 02750] loss=0.0439 pg=0.0460 v=0.0030 ent=0.4854 adv=-0.015 kl=0.3106 clip=0.34 ex_var=0.949
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002750.txt
+[Eval @ 2750] F1_best=2.166  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.286
+Now:    F1(best F1)=2.226, F2(best F1)=42.402
+	F2(best F2)=42.227, F1(best F2)=2.446
+	Best F1+F2=44.628
+	Best Mean: 45.889
+
+[Iter 02800] loss=0.0151 pg=0.0128 v=0.0180 ent=0.5296 adv=0.002 kl=0.0920 clip=0.42 ex_var=0.956
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002800.txt
+[Eval @ 2800] F1_best=2.161  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.286
+Now:    F1(best F1)=2.161, F2(best F1)=41.573
+	F2(best F2)=41.234, F1(best F2)=2.162
+	Best F1+F2=43.396
+	Best Mean: 45.951
+
+[Iter 02850] loss=0.0424 pg=0.0427 v=0.0077 ent=0.4601 adv=-0.008 kl=0.1761 clip=0.35 ex_var=0.966
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002850.txt
+[Eval @ 2850] F1_best=2.161  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.097
+Now:    F1(best F1)=2.161, F2(best F1)=42.097
+	F2(best F2)=40.902, F1(best F2)=2.352
+	Best F1+F2=43.254
+	Best Mean: 45.097
+
+[Iter 02900] loss=0.0704 pg=0.0733 v=0.0023 ent=0.6667 adv=-0.023 kl=0.5087 clip=0.60 ex_var=0.960
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002900.txt
+[Eval @ 2900] F1_best=2.161  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.097
+Now:    F1(best F1)=2.219, F2(best F1)=43.671
+	F2(best F2)=41.866, F1(best F2)=2.315
+	Best F1+F2=44.181
+	Best Mean: 46.741
+
+[Iter 02950] loss=0.0483 pg=0.0472 v=0.0129 ent=0.5168 adv=-0.055 kl=0.1473 clip=0.45 ex_var=0.971
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_002950.txt
+[Eval @ 2950] F1_best=2.161  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.097
+Now:    F1(best F1)=2.238, F2(best F1)=42.834
+	F2(best F2)=42.738, F1(best F2)=2.354
+	Best F1+F2=45.072
+	Best Mean: 46.392
+
+[Iter 03000] loss=0.0190 pg=0.0190 v=0.0080 ent=0.4707 adv=0.062 kl=0.2163 clip=0.40 ex_var=0.916
+[INFO]: Running Evaluate
+[INFO]: Saved detailed solutions to results/training_curriculum_v2.1/checkpoints/solutions_iter_003000.txt
+[Eval @ 3000] F1_best=2.161  F2_best=39.215  (F1+F2)_best=41.517  Mean_best=45.097
+Now:    F1(best F1)=2.264, F2(best F1)=41.179
+	F2(best F2)=41.179, F1(best F2)=2.264
+	Best F1+F2=43.443
+	Best Mean: 45.951

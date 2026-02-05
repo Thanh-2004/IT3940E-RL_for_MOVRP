@@ -1,0 +1,95 @@
+--- Solutions at Iteration 250 ---
+
+=== BEST F1 SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=1.38, F2=5.98
+Moves:
+  1. Drone 1 -> Node 12
+  2. Drone 1 -> Node 10
+  3. Drone 1 -> Node 0
+  4. Drone 1 -> Node 3
+  5. Drone 0 -> Node 19
+  6. Drone 1 -> Node 11
+  7. Drone 1 -> Node 0
+  8. Drone 1 -> Node 9
+  9. Drone 1 -> Node 0
+  10. Drone 1 -> Node 16
+  11. Drone 1 -> Node 0
+  12. Drone 1 -> Node 15
+  13. Drone 1 -> Node 13
+  14. Drone 1 -> Node 0
+  15. Drone 0 -> Node 0
+  16. Truck 0 -> Node 7
+  17. Truck 0 -> Node 17
+  18. Truck 0 -> Node 18
+  19. Truck 0 -> Node 5
+  20. Truck 1 -> Node 2
+  21. Truck 1 -> Node 20
+  22. Truck 0 -> Node 4
+  23. Truck 1 -> Node 1
+  24. Truck 1 -> Node 14
+  25. Truck 1 -> Node 8
+  26. Truck 1 -> Node 6
+
+=== BEST F2 SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=1.38, F2=5.98
+Moves:
+  1. Drone 1 -> Node 12
+  2. Drone 1 -> Node 10
+  3. Drone 1 -> Node 0
+  4. Drone 1 -> Node 3
+  5. Drone 0 -> Node 19
+  6. Drone 1 -> Node 11
+  7. Drone 1 -> Node 0
+  8. Drone 1 -> Node 9
+  9. Drone 1 -> Node 0
+  10. Drone 1 -> Node 16
+  11. Drone 1 -> Node 0
+  12. Drone 1 -> Node 15
+  13. Drone 1 -> Node 13
+  14. Drone 1 -> Node 0
+  15. Drone 0 -> Node 0
+  16. Truck 0 -> Node 7
+  17. Truck 0 -> Node 17
+  18. Truck 0 -> Node 18
+  19. Truck 0 -> Node 5
+  20. Truck 1 -> Node 2
+  21. Truck 1 -> Node 20
+  22. Truck 0 -> Node 4
+  23. Truck 1 -> Node 1
+  24. Truck 1 -> Node 14
+  25. Truck 1 -> Node 8
+  26. Truck 1 -> Node 6
+
+=== BEST SUM SCENARIO ===
+Weights: w1=0.94, w2=0.06
+Result: F1=1.38, F2=5.98
+Moves:
+  1. Drone 1 -> Node 12
+  2. Drone 1 -> Node 10
+  3. Drone 1 -> Node 0
+  4. Drone 1 -> Node 3
+  5. Drone 0 -> Node 19
+  6. Drone 1 -> Node 11
+  7. Drone 1 -> Node 0
+  8. Drone 1 -> Node 9
+  9. Drone 1 -> Node 0
+  10. Drone 1 -> Node 16
+  11. Drone 1 -> Node 0
+  12. Drone 1 -> Node 15
+  13. Drone 1 -> Node 13
+  14. Drone 1 -> Node 0
+  15. Drone 0 -> Node 0
+  16. Truck 0 -> Node 7
+  17. Truck 0 -> Node 17
+  18. Truck 0 -> Node 18
+  19. Truck 0 -> Node 5
+  20. Truck 1 -> Node 2
+  21. Truck 1 -> Node 20
+  22. Truck 0 -> Node 4
+  23. Truck 1 -> Node 1
+  24. Truck 1 -> Node 14
+  25. Truck 1 -> Node 8
+  26. Truck 1 -> Node 6
+----------------------------------------
