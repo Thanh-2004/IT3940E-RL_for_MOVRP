@@ -58,7 +58,7 @@ def eval_once(env, policy, device, w1, w2):
     
     h = policy.init_hidden(1, device=device)
     while not done:
-        action, _, _, _, h = policy.act(obs, h_prev=h, deterministic=True)
+        action, _, _, _, h = policy.act(obs, h_prev=h, deterministic=False)
         v_type, v_idx, chosen_node = tuple(int(x) for x in action)
         
         actions_history.append((v_type, v_idx, chosen_node))

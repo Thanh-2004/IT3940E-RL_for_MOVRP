@@ -4,8 +4,8 @@
 TRUCK_JSON="/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/Truck_config.json"
 DRONE_JSON="/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/drone_linear_config.json"
 DATA_DIR="/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/random_data"
-CKPT_PATH="./results/training_curriculum_v2.1/checkpoints"
-BASE_OUT_DIR="./evaluation_results"
+CKPT_PATH="./results/training_curriculum_v2/checkpoints"
+BASE_OUT_DIR="./evaluation_results1"
 
 # --- Danh sách 8 instance ---
 INSTANCES=("20.10.1" "20.10.3" "20.20.2" "20.20.3" "50.10.1" "50.10.2" "50.10.3" "50.10.4")
