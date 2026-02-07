@@ -19,8 +19,8 @@ python utils/test_final.py \
 python utils/run_env.py \
     --truck_json "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/Truck_config.json" \
     --drone_json "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/drone_linear_config.json" \
-    --customers_txt "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/random_data/20.10.1.txt" \
-    --solutions_dir "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/ptr-net_v2/evaluation_results2/20.10.1"
+    --customers_txt "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/random_data/50.10.3.txt" \
+    --solutions_dir "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/ptr-net_v2/evaluation_results2/50.10.3"
 
 python utils/visualizer.py \
     --customers_txt "/Users/nguyentrithanh/Documents/20251/Project3/IT3940E-RL_for_MOVRP/data/random_data/20.10.1.txt" \
